@@ -12,9 +12,16 @@ Open your browser and visit http://localhost:6868
 
 ## Routes
 
-- [locahost:6868/raw-data](http://locahost:6868/raw-data)
 Route to get raw data (encrypted data)
-- [locahost:6868/encrypted/:message](locahost:6868/encrypted/:message)
+- [locahost:6868/raw-data](http://locahost:6868/raw-data)
+
 Route to add any string to the mongodb (data decrypted)
-- [locahost:6868/decrypted](locahost:6868/decrypted)
+- [locahost:6868/encrypted/:message](locahost:6868/encrypted/:message)
+
 Route to get descrypted data
+- [locahost:6868/decrypted](locahost:6868/decrypted)
+
+
+
+
+
